@@ -3,12 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Solarized (light) 16-color</string>
+	<string>Solarized (light) Traditional</string>
 	<key>settings</key>
 	<array>
         <!--
         This theme is meant for users who configure their terminal for Solarized
-        16-color mode as recommended by Ethan Schoonover.
+        16-color mode - as recommended by Ethan Schoonover - and want colors that
+        are closer to what is described and shown on the homepage.
 
         The colors in this theme are encoded as #RRGGBBAA where RR is an ANSI
         palette number from 00 to 0f (the 8 colors and their bright versions),

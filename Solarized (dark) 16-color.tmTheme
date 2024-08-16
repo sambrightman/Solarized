@@ -3,12 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Solarized (dark) 16-color</string>
+	<string>Solarized (dark) Traditional</string>
 	<key>settings</key>
 	<array>
         <!--
         This theme is meant for users who configure their terminal for Solarized
-        16-color mode as recommended by Ethan Schoonover.
+        16-color mode - as recommended by Ethan Schoonover - and want colors that
+        are closer to what is described and shown on the homepage.
 
         The colors in this theme are encoded as #RRGGBBAA where RR is an ANSI
         palette number from 00 to 0f (the 8 colors and their bright versions),
@@ -114,18 +115,18 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#0d000000</string>
+				<string>#06000000</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable</string>
+			<string>variable,variable.parameter</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#04000000</string>
+				<string>#0c000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -136,7 +137,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#03000000</string>
+				<string>#0c000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -147,7 +148,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#05000000</string>
+				<string>#0c000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -213,7 +214,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#03000000</string>
+				<string>#04000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -224,7 +225,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#04000000</string>
+				<string>#0c000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -257,7 +258,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#03000000</string>
+				<string>#04000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -279,7 +280,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#03000000</string>
+				<string>#02000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -819,6 +820,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Python: magic function</string>
+			<key>scope</key>
+			<string>support.function.magic.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#04000000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Python: Support.exception</string>
 			<key>scope</key>
 			<string>support.type.exception.python</string>
@@ -1098,6 +1110,18 @@
 			<dict>
 				<key>foreground</key>
 				<string>#0c000000</string>
+			</dict>
+		</dict>
+		<!-- Lisp -->
+		<dict>
+			<key>name</key>
+			<string>Variable Function</string>
+			<key>scope</key>
+			<string>variable.function.lisp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#02000000</string>
 			</dict>
 		</dict>
 	</array>
